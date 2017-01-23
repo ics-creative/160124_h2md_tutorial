@@ -6,70 +6,14 @@ html, body {
 }
 
 body {
+  background-image: url(../images/bg.jpg);
+  background-size: cover;
+  background-position: 50% 0;
   overflow-x: hidden;
-  font-family: "serif";
-  color: #151515;
-}
-
-body > section {
-  padding: 10px;
-}
-
-a:active {
-  opacity: 0.8;
-}
-
-.box {
-  min-height: 40px;
-  margin-bottom: 10px;
-  box-sizing: border-box;
-  padding: 5px;
-}
-
-.column {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-}
-
-.column > .box {
-  width: 49%;
-  width: calc(50% - 5px);
-}
-
-#__bs_notify__ {
-  display: none !important;
-}
-
-.sampleBox1 {
-  background-color: #f276a1;
-}
-
-.sampleBox2 {
-  background-color: #1574f1;
-}
-
-.sampleBox3 {
-  background-color: #1b8df5;
-}
-
-#playerSection {
-  padding-left: 0;
-  padding-right: 0;
-  position: relative;
-  pointer-events: none;
-}
-
-#playerWrapper {
-  position: absolute;
-  left: 0;
 }
 
 .movieFrame {
   position: fixed;
-  bottom: 0px;
-  left: 0px;
+  top: 0;
+  left: 0;
 }
