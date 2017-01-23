@@ -6,8 +6,10 @@ html, body {
 }
 
 body {
+  background-color: #0c3e54;
+  background-repeat: no-repeat;
   background-image: url(../images/bg.jpg);
-  background-size: cover;
+  background-size: 100% auto;
   background-position: 50% 0;
   overflow-x: hidden;
 }
